@@ -1,7 +1,9 @@
 angular-chartist
 =================
 
-Simple Chartist directive for Angular.js
+Simple Chartist directive for Angular.js.
+Chartist is simple and lightweight javascript charting 
+library https://gionkunz.github.io/chartist-js/
 
 Installation
 =================
