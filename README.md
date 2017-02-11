@@ -37,3 +37,7 @@ angular.module('demo', [])
     };
 });
 ````
+
+demo: <a href="https://rawgit.com/FranciaPaolo/angular-chartist/master/demo/index.html">demo</a>
+
+<iframe src="https://rawgit.com/FranciaPaolo/angular-chartist/master/demo/index.html"></iframe>
