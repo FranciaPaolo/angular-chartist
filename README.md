@@ -40,5 +40,6 @@ angular.module('demo', [])
 
 Demo
 =================
+View demo page that shaw a simple donut chart with animation: 
 <a href="https://rawgit.com/FranciaPaolo/angular-chartist/master/demo/index.html" target="_blank">demo</a>
 
