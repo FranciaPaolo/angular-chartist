@@ -25,13 +25,16 @@ function ngChartist($compile, $timeout) {
 
     // set watcher for future data updates
     scope.$watch('data', function(newValue, oldValue) {
+
       if(newValue === oldValue) {
         return;
       }
+
       graph.update(scope.data, options, true);
       
       graph.on('draw', function (data) {
           if(data.type === 'slice' && scope.animate=='true') {
+            
             // Get the total path length in order to use for dash array animation
             var pathLength = data.element._node.getTotalLength();
 

@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<title>AngularChartistDirective</title>
+	<meta name="viewport" content="width=device-width">
+    <meta name="description" content="demo">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular.min.js"></script>
+    
+    <script type="text/javascript" src="../chartist.js"></script>
+    <link rel="stylesheet" href="../chartist.css">  
+    
+    <script type="text/javascript" src="../chartistAngularDirective.js"></script>
+
+    <script type="text/javascript" src="app.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="appController">
+
+	<div ng-chartist id='graph_id1' class="ct-chart" data='pie_data' type='Pie' animate='true' options='{"showLabel": true, "donut": true, "donutWidth": 20}'></div>
+
+	<div style="text-align: center;">
+		<input type="button" value="reload" ng-click="reloadChart()" />
+	</div>
+    
+</body>
+</html>
