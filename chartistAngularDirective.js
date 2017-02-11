@@ -1,6 +1,3 @@
-//https://github.com/paradox41/angular-chartist.js
-//https://www.npmjs.com/package/chartist-angular-directive
-//http://gionkunz.github.io/chartist-js/examples.html#simple-pie-chart
 angular
   .module('chartistAngularDirective', [])
   .directive('ngChartist', ngChartist);
