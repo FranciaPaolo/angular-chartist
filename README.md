@@ -38,6 +38,8 @@ angular.module('demo', [])
 });
 ````
 
-demo: <a href="https://rawgit.com/FranciaPaolo/angular-chartist/master/demo/index.html">demo</a>
+demo: <a href="https://rawgit.com/FranciaPaolo/angular-chartist/master/demo/index.html" target="_blank">demo</a>
 
+{::nomarkdown}
 <iframe src="https://rawgit.com/FranciaPaolo/angular-chartist/master/demo/index.html"></iframe>
+{:/}
