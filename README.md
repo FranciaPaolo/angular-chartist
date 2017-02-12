@@ -5,8 +5,7 @@ Simple Chartist directive for Angular.js.
 Chartist is simple and lightweight javascript charting 
 library https://gionkunz.github.io/chartist-js/
 
-Installation
-=================
+##Installation
 ````html
 <!-- Chartist dependencies -->
 <script src="angular-chartist/chartist.js"></script>
@@ -15,8 +14,7 @@ Installation
 <!-- Angular directive -->
 <script src="angular-chartist/chartistAngularDirective.js"></script>
 ````
-Usage
-=================
+##Usage
 ````js
 var myApp = angular.module('myApp', ['chartistAngularDirective']);
 
@@ -38,8 +36,12 @@ angular.module('demo', [])
 });
 ````
 
-Demo
-=================
+##Demo
 View demo page that shaw a simple donut chart with animation: 
 <a href="https://rawgit.com/FranciaPaolo/angular-chartist/master/demo/index.html" target="_blank">demo</a>
 
+
+##Todo Enhancements
+* bind the mousedown event to have an interactive chart
+* tooltip option on the chart items
+* extend the animation that now is in the directive, to have a linked function that is responsibile for the animation in the controller
